@@ -2,7 +2,6 @@ body{
     background-color: black;
     line-height: 1.5;
     color: white;
-    padding: 0;
     font-family: 'Kalnia', cursive;
     background-image: url('ava-bg.jpg');
     background-repeat: no-repeat;
@@ -234,7 +233,7 @@ hr{
 .gallery-img {
     margin: 5px;
     float: left;
-    width: 320px;
+    width: 300px;
     text-align: center;
     padding-right: 1px;
 }
@@ -245,5 +244,54 @@ hr{
 
 desc {
     padding: 15px;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Kalnia', cursive;
+    font-size: 20px;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer text{
+    color: #000000;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer-text{
+    font-family: 'Bangers', cursive;
+}
+
+.footer-left{
+    width: 50%;
+    float: left;
+}
+
+.footer-right{
+    width: 50%;
+    float: right;
+}
+
+.author{
+    background-color: #000000;
+    display: flex;
+    margin-bottom: -10px;
+    padding-bottom: 20px;
+}
+
+.author-text {
+    font-family: 'Dancing Script', serif;
+    font-size: 30px;
     text-align: center;
 }
