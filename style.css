@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+    line-height: 1.5;
+    color: white;
+    padding: 0;
+    font-family: 'Kalnia', cursive;
+    background-image: url('ava-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.name{
+    font-family: 'Monoton', serif;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+img{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-about img{
+    height: 490px;
+    margin-top: 20px;
+}
+
+.mini-about{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.mini-about-left{
+    width:50%;
+    float: left;
+}
+
+.mini-about-right{
+    width: 50%;
+    float:right;
+    margin-right: -80px;
+}
+
+.text{
+    color: white;
+    font-size: 60px;
+    font-family: 'Rubik Maps';
+    float: right;
+    width: 100%;
+}
+
+.text p{
+    font-family: 'Kalnia';
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.buttons{
+    float: left;
+    width: 100%;
+}
+
+button {
+    border: none;
+    padding: 16px 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    margin-left: -28px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: inherit;
+    font-family: 'Kalnia', cursive;
+    font-weight: bold;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Kalnia', cursive;
+}
+
+a:visited {
+    color: deepskyblue;
+}
+
+a:hover {
+    color:gold;
+}
+
+.about-top img{
+    height: 50%;
+    width: 89%;
+    border-color: black;
+    margin-left: 82px;
+}
+
+.about-top{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.about{
+    display: inline-block;
+    margin-left: 82px;
+}
+
+.about-left{
+    align-items: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-left p{
+    font-family: 'Kalnia', cursive;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-right: 82px;
+}
+
+hr{
+    border: 5px solid black;
+    border-radius: 2px;
+}
+
+.discography-albums-list{
+    margin-left: 82px;
+    margin-top: 50px;
+}
+
+.discography-top img{
+    height: 100%;
+    width: 90%;
+    border-color: black;
+    margin-left: 5%;
+}
+
+.discography-top{
+    position: relative;
+    text-align: left;
+    color: white;
+    margin-left: 80px;
+}
+
+.left-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
+}
+
+.discography-albums-list img{
+    width: 80%;
+    height: 80%;
+}
+
+.discography-headings{
+    text-align: center;
+    padding-left: 82px;
+    padding-top: 20px;
+}
+
+.discography-albums-list p{
+    text-align: center;
+}
+
+.discography-albums-list iframe{
+    display: block;
+}
+
+.hh{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    float: left;
+    text-align: center;
+}
+
+.dd{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.singles-list{
+    margin-left: 82px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.singles-list ul{
+    list-style-type: none;
+}
+
+.videos-top{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.videos{
+    margin-left: 82px;
+    align-items: center;
+}
+
+.gallery{
+    margin-left: 82px;
+}
+
+.gallery-top{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
+}
+
+.img-gallery{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.gallery-img {
+    margin: 5px;
+    float: left;
+    width: 320px;
+    text-align: center;
+    padding-right: 1px;
+}
+
+.gallery-img:hover {
+    border: 1px solid #777;
+}
+
+desc {
+    padding: 15px;
+    text-align: center;
+}
